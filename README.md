@@ -67,9 +67,3 @@ Each algorithm is implemented in Java and tested on sample data to demonstrate i
 - **Conclusion**: Recursion depth and time complexity are as expected, with optimizations (like Insertion Sort for small arrays and randomized pivots) improving practical performance.
 
 ---
-
-## Running the Project
-
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
