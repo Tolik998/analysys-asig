@@ -26,22 +26,22 @@ Each algorithm is implemented in Java and tested on sample data to demonstrate i
 ### 1. **MergeSort**
 - **Recurrence**: T(n) = 2T(n/2) + O(n)
 - **Method**: Master Theorem (Case 2)
-- **Result**: \( \Theta(n \log n) \)
+- **Result**: \( \T(n \log n) \)
 
 ### 2. **QuickSort**
 - **Recurrence**: T(n) = T(n/2) + O(n) (average case)
 - **Method**: Master Theorem / Akra-Bazzi intuition
-- **Result**: \( \Theta(n \log n) \) average, \(O(n^2)\) worst-case
+- **Result**: \( \T(n \log n) \) average, \(O(n^2)\) worst-case
 
 ### 3. **Deterministic Select**
 - **Recurrence**: T(n) = T(n/5) + T(4n/5) + O(n)
 - **Method**: Akra-Bazzi intuition
-- **Result**: \( \Theta(n) \)
+- **Result**: \( \T(n) \)
 
 ### 4. **Closest Pair of Points**
 - **Recurrence**: T(n) = 2T(n/2) + O(n)
 - **Method**: Master Theorem
-- **Result**: \( \Theta(n \log n) \)
+- **Result**: \( \T(n \log n) \)
 
 ---
 
